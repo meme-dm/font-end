@@ -1,0 +1,400 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.fixCen{
+	width: 1170px;
+	margin:0 auto;
+}
+.wrap{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/*---------------------
+---------HEADER---------
+-------------------------*/
+
+/*header-top*/
+header{
+	background-image: url("./images/Home Law.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.main-header{
+	
+	width: 100%;
+	/*background-color: rgba(189,187,187,0.2);*/
+	background-color: #3D130B;
+	position: fixed;
+	z-index: 12;
+}
+.header-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.logo a img{
+	width: 100px;
+	margin:25px 0;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 40px;
+	color: white;
+}
+.menu .fa-search{
+	color: #fff;
+	margin-left: 40px;
+}
+/*brand*/
+.brand{
+	color: #fff;
+	padding-top: 150px;
+	text-align: center;
+}
+
+/*search*/
+ .search{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	width: 1050px;
+ 	margin:0 auto;
+ 	background-color:#3D130B; 
+
+ }
+ .icon{
+ 	display: flex;
+ 	align-items: center;
+ 	margin-left: 40px;
+ 	color: #fff;
+ }
+ .icon .fa-search{
+ 	font-size: 2.5em;
+ }
+.inputs input{
+	background-color: #53537d;
+	padding: 10px;
+	border:none;
+	outline: none;
+}
+.inputs ::placeholder{
+	color: #fff;
+}
+.city select{
+	background-color: #53537d;
+	padding: 10px;
+	width: 140px;
+	border:none;
+	outline: none;
+	color: #fff;
+}
+.type select{
+	background-color: #53537d;
+	padding: 10px;
+	width: 140px;
+	border:none;
+	outline: none;
+	color: #fff;
+}
+.btn-search button{
+	padding: 10px;
+	width: 140px;
+	margin-right: 40px;
+	background-color: #f1c40f;
+	border:none;
+	outline: none;
+}
+
+/*-------------------------
+------------MAIN-----------
+-----------------------------*/
+
+.main-top{
+	display: flex;
+	margin-top: 60px;
+
+}
+.main-content{
+	display: inline-block;
+	width: 860px;
+}
+.content-about{
+	padding-right: 150px;
+	font-size: 14px;
+}
+.main-content h2{
+	color: #f1c40f;
+}
+.main-content h1{
+	color: #40150d;
+}
+.main-contact{
+	height: 480px;
+}
+.main-contact img{
+	margin:70px 0 0 60px;
+}
+.main-contact .h24{
+	width: 300px;
+	position: relative;
+	top: -410px;
+	left: -60px;
+}
+.phone{
+	display: flex;
+}
+.phone img{
+	width: 30px;
+	margin-top: 0px;
+}
+.phone{
+	position: relative;
+	top: -340px;
+	padding-left: 20px;
+}
+.main-right{
+	margin:215px 0 0 -80px;
+	height: 600px;
+}
+.picture-right{
+	position: relative;
+	top:-760px;
+	left: 120px;
+}
+
+/*main-pictures*/
+
+.title{
+	display: flex;
+}
+.title img{
+	height: 40px
+}
+.title h2{
+	margin:5px 0 0 -30px;
+}
+.list-pictures{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:20px 50px;
+}
+.list-pictures img{
+	width: 400px;
+	margin-top: 20px;
+}
+.item{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 254px;
+	background-image: linear-gradient(rgba(84,44,37, 0.85) 100%, rgba(255,255,255,0.8)), url("./images/home-12.png");
+	margin-top: 22px;
+
+}
+.fa-lightbulb{
+	margin: 20px 181px;
+    font-size: 3.5em;
+    color: #fff;
+}
+.content-image{
+	color: #fff;
+	text-align: center;
+}
+.content-image p{
+	font-size: 13px;
+	font-weight: 100;
+	padding: 0 32px;
+	margin-top: -10px;
+}
+.list-btn{
+	margin-left: 22px;
+}
+.list-btn button{
+	border-radius: 50%;
+    height: 25px;
+    border: none;
+    margin-right: 20px;
+}
+.Our-client{
+	margin-top: 100px;
+}
+.Comments{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.image{
+	height: 250px;
+	width: 550px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.image img{
+	margin-top: -50px;
+	margin-left: 30px;
+}
+.say{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:20px;
+}
+.name{
+	width: 400px;
+}
+.name span{
+	font-weight: 500;
+	font-size:14px;
+}
+.name p{
+	font-weight: 500;
+	font-size:14px;
+}
+.slide{
+	width: 100%;
+	height: 250px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	background-image: url("./images/2.png");
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.slide p{
+	padding:100px 190px 0 190px;
+	font-weight: 500;
+}
+#slide-dot-1,#slide-dot-2,#slide-dot-3 {
+
+}
+
+/*Last News*/
+
+.box-news{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+.box-1{
+	width: 364px;
+	height: 481px;
+	border: 3px solid #f1c40f;
+}
+.main-news{
+	margin: 80px 10px;
+}
+.time-news{
+	font-size: 16px;
+	font-weight: 700;
+}
+.title-news{
+	font-size: 20px;
+	font-weight: 600;
+}
+.content-new{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 2;
+	margin: 50px 0;
+}
+.continue a{
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+}
+.brand-bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 50px;
+
+}
+/*-----------------------------
+--------------FOOTER------------
+--------------------------------*/
+
+.main-footer{
+	background-color: #2a2a2a;
+	color: #606060;
+}
+.content-footer{
+	padding-bottom: 30px;
+}
+.top-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #606060;
+	height: 70px;
+}
+.contact-footer{
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	margin-right: 85px;
+	font-size: 1.5em;
+}
+.bottom-footer{
+	display: flex;
+	justify-content: space-between;
+	color: #616161;
+	font-weight: 500;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.left-bottom{
+	width: 350px;
+	line-height: 26px;
+	font-family: "Nunito Sans";
+	margin-right: 50px;
+}
+.cen-bottom{
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	justify-content: space-between;
+	padding: 20px 80px;
+	border-left: 1px solid #606060;
+	border-right: 1px solid #606060;
+}
+.link-right{
+	width: 120px;
+	margin-right: -20px;
+}
+.link-left a , .link-right a{
+	font-size: 14px;
+	line-height: 29px;
+	color: #686868;
+	font-weight: 500;
+	font-family: "Nunito Sans";
+	text-decoration: none;
+	display: inline-block;
+}
+.link-left a:hover , .link-right a:hover{
+	color: #fff;
+}
+.link-left span:hover , .link-right span:hover{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.right-bottom{
+	padding-left: 110px;
+	margin-top: 20px;
+}
+.right-bottom .fa-phone,.right-bottom .fa-envelope{
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
